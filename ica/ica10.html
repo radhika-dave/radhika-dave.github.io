@@ -9,22 +9,25 @@
 <body>
     <h1>This is ICA 10!</h1>
     <button type="button">click me</button>
+    <button onClick="colorBlack()">click me to change color</button>
     <script>
         const button = document.querySelector("button");
-        //button.addEventListener('click', runFunction);
+        button.addEventListener('click', runFunction);
 
-        //function runFunction() {
-            //console.log("test");
-            //const name = prompt("Please enter your name");
-            //button.textContent = `Hi ${name}, it's nice to meet you!`; //these are backticks - under the escape key
-        button.addEventListener('click', changeText);
-        //function changeText () {
-            //alert('test successful!');
-        //}
-        const heading = document.querySelector("h1")
-        function changeText (){
-            heading.textContent = `hi`;
+        function runFunction() {
+            console.log("test");
+            const name = prompt("Please enter your name");
+            const heading = document.querySelector("h1")
+            button.textContent = `Hi ${name}, it's nice to meet you!`; //these are backticks - under the escape key
         }
+        const button2 = document.querySelector("button2");
+        button2.addEventListener('click', runFunction)
+
+        function colorBlack(){
+            document.body.style.background="black"
+            document.querySelectorAll('h1')[0].style.color="white";
+        }
+
     </script>
 </body>
 </html>
