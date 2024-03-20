@@ -1,12 +1,40 @@
 body {
     background-color: #18191A; 
     color: white; 
-    padding: 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    padding: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imgContainer {
+    width: 100%; /* Optional: Set a maximum width for the container */
+    max-width: 1440px;
+    margin: 0; /* Optional: Center the container horizontally */
+}
+  
+  .imgContainer img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+nav{
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    position: sticky; 
+}
+
+nav a { 
+    color: #643b9f;
+    font-size: 20px; 
 }
 
 h1 {
     text-align: center;
+    color: #c8a4d4;
+}
+
+h2 { 
     color: #c8a4d4;
 }
 
@@ -28,16 +56,9 @@ ul {
     flex-direction: column;
     text-align: center;
     padding-block: 5em; 
-    font-size: 16px; 
+    font-size: 16px;
 }
 
-.lineup h3:hover {
-    color: #c8a4d4;
-}
-
-.lineup h4:hover { 
-    color: #643b9f
-}
 .labels {
     color: #c8a4d4;
 }
