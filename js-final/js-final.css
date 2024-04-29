@@ -1,0 +1,17 @@
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    text-align: center;
+  }
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    text-align: center;
+  }
+  
+body {
+    width: 640px;
+    margin: 0 auto;
+    background-color: aquamarine;
+  }
